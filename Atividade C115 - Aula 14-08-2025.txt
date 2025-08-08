@@ -1,0 +1,42 @@
+Atividade C115
+
+1- Explique o conceito de Web Service segundo a definição da Gartner.
+
+R: Web Service funciona como uma padronização adotada pelos dispositivos visando a comunicação entre os mesmos. Por meio dos Web Services que notebooks, smartphones, smart TVs, entre outros dispositivos, podem transmitir dados entre si.    
+ 
+2 - Explique a função do protocolo SOAP e descreva a composição de seu envelope. 
+
+R: A função do protocolo SOAP é definir regras para a troca de informações em uma rede. Utilizado para a comunicação entre sistemas em uma arquitetura de Web Services. Sua principal função é garantir a troca de dados entre as aplicações.
+   Seu envelope é composto por: Header (informações opcionais sobre a mensagem) e Body (mensagem em si).
+
+3 - Quais são os três elementos principais de uma arquitetura de Web Service? 
+
+R: Os 3 elementos principais de uma arquitetura Web Service são:
+	*Implementação do Serviço: Uso do Protocolo de Comunicação definindo como será feita a transmissão de mensagens;
+	*Descrição do Serviço(WSDL): Contrato que descreve as operações e dados do Web Service;
+	*Registro de Serviços(UDDI): Estrutura de pesquisa e registro dos Web Services na rede. 
+
+4 - O que é WSDL e quais são os elementos básicos que o compõem? 
+
+R: WSDL é uma linguagem usada para descrever as operações, formatos e protocolos utilizados por um Web Service. 
+   É composto por: Types(tipos de dados), Message(mensagens de envio e recebimento), PortType(conjunto de operações oferecidas), Binding(protocolo e formato de comunicação) e Service(define onde o Web Service pode ser acessado).
+
+5 - Qual é a função do UDDI em Web Services? 
+
+R: UDDI é uma "fonte de registro" dos Web Services, de forma que as empresas podem publicar e encontrar serviços de forma padrão, facilitando na integração de sistemas.
+
+6 - O que é REST e quem o criou? 
+
+R: REST é uma arquitetura para criação de serviços Web utiliza como base os princípios do protocolo HTTP na troca de dados. Utiliza os conceitos de GET, POST, PUT e DELETE na manipulação dos recursos.
+
+7 - Qual é a função de um recurso (Resource) no REST e como ele é identificado?  
+
+R: No REST, um recurso é qualquer entidade que pode ser manipulada ou representada por um serviço. Cada recurso é identificado por um URI (Uniform Resource Identifier) único (identificador único), que é utilizado para acesso.
+
+8 - O que é virtualização e quais são seus principais tipos de recursos virtualizados? 
+
+R: Virtualização é o processo de criação de uma representação com base em software ou virtual de: aplicativos, servidores, armazenamento e redes.
+
+9 - O que é um container Docker e o que ele empacota? 
+
+R: Um container Docker é um recurso utilizado para aderir as informações necessárias para executar uma aplicação em um dispositivo. Esse container empacota a aplicação, suas bibliotecas e dependências necessárias. Essa solução é mais leve, pois não exige a instalação de um sistema operacional completo(MÁQUINAS VIRTUAIS), permitindo o uso apenas da aplicação necessária.
